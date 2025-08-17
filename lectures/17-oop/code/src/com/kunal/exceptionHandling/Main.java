@@ -24,6 +24,7 @@ public class Main {
     }
 
     static int divide(int a, int b) throws ArithmeticException{
+        //throws - it mY THROW AN exception
         if (b == 0) {
             throw new ArithmeticException("please do no divide by zero");
         }
